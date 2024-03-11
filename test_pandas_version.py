@@ -1,6 +1,6 @@
 import pandas as pd
 
-PANDAS_VERSION = "2.2.1"
+PANDAS_VERSION = "1.5.3"
 
 def test_pandas_version():
   assert pd.__version__ in [PANDAS_VERSION]
